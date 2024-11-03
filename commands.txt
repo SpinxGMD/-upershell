@@ -1,0 +1,5 @@
+exit > exits the $hell
+
+newfile > creates a new ssh file
+
+openfile > opens a main.ssh file

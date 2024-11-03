@@ -1,0 +1,20 @@
+# This is the introduction file to $upershell with everything!
+
+# Variables
+varconst=welcome>$upershell
+                            # varconst creates a variable
+                            # "welcome" is the variable
+			    # $upershell is the output
+# Text
+ctext('Hello $upershell') # ctext stands for console text
+
+# Text with variables
+ctext('Hello $welcome$') # to put a variable in here
+                         # type the variable name in $ signs
+# Time delay
+ctext('Hello World')
+
+time.add('3')
+
+ctext('wow you really waited :)')
+
