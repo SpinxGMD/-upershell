@@ -15,21 +15,19 @@ Clear Console: Use cclear to clear the console output.
 Exit Shell: Type exit to close the shell.
 
 # Example Usage
-Variables:
+# Variables:
 varconst=name>World
 
-Text:
+# Text:
 ctext('Hello, $name$!')
 
-Time (in seconds)
+# Time (in seconds)
 time.add('5')'
-ctext('This message appears after a 5-second delay.')
 
-
-New file
+# New file
 newfile intro.ssh
 
-Everything:
+# Everything:
 varconst=greeting>Hello, User!
 
 ctext('$greeting$')
