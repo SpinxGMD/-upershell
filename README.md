@@ -27,6 +27,9 @@ time.add('5')'
 # New file
 newfile intro.ssh
 
+#Open a file
+openfile intro.ssh
+
 # Everything:
 varconst=greeting>Hello, User!
 
