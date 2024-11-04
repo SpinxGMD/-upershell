@@ -16,23 +16,27 @@ Exit Shell: Type exit to close the shell.
 
 # Example Usage
 Variables:
-'varconst=name>World'
+varconst=name>World
 
 Text:
-'ctext('Hello, $name$!')'
+ctext('Hello, $name$!')
 
 Time (in seconds)
-'time.add('5')'
-'ctext('This message appears after a 5-second delay.')'
+time.add('5')'
+ctext('This message appears after a 5-second delay.')
+
 
 New file
-'newfile intro.ssh'
+newfile intro.ssh
 
 Everything:
-'varconst=greeting>Hello, User!'
-'ctext('$greeting$')'
-'time.add('3')'
-'ctext('This message appears after a 3-second delay.')'
+varconst=greeting>Hello, User!
+
+ctext('$greeting$')
+
+time.add('3')
+
+ctext('This message appears after a 3-second delay.')
 
 # Thanks for checking
 Clone the repository and run $upershell to start using this interactive shell for custom scripting and command execution.
